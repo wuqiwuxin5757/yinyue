@@ -1,0 +1,42 @@
+{
+  "assistant_name": "银月",
+  "wake_pinyin": "yin yue",
+  "wake_max_pinyin_errors": 1,
+
+  "greeting_replies": ["主人，我在。"],
+  "follow_up_seconds": 12,
+  "memory_minutes": 5,
+  "echo_guard_seconds": 1.2,
+  "aec_enabled": true,
+  "aec_delay_ms": 300,
+  "barge_in_any_speech": false,
+
+  "input_device": null,
+  "output_device": null,
+  "vad_threshold": 0.42,
+
+  "tts_engine": "cosyvoice",
+  "cosyvoice_preset": "中文女",
+  "cosyvoice_port": 8767,
+  "cosyvoice_min_free_vram_mb": 3500,
+  "cosyvoice_unload_after_minutes": 30,
+  "tts_voice_sid": 3,
+  "tts_speed": 1.0,
+
+  "avatar_enabled": true,
+  "remote_enabled": false,
+  "remote_port": 8780,
+  "remote_speak": true,
+  "avatar_style": "3d",
+
+  "llm_port": 8765,
+  "llm_gpu_layers": 99,
+  "llm_min_free_vram_mb": 4000,
+  "llm_context": 8192,
+  "llm_unload_after_minutes": 10,
+
+  "vision_model": "D:/llama.cpp/models/Qwen3VL-8B-Instruct-Q8_0.gguf",
+  "vision_mmproj": "D:/llama.cpp/models/mmproj-Qwen3VL-8B-Instruct-F16.gguf",
+  "vision_port": 8766,
+  "vision_unload_after_minutes": 3
+}

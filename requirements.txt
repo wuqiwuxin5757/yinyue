@@ -1,0 +1,14 @@
+numpy
+Pillow
+requests
+sherpa-onnx
+sounddevice
+pypinyin
+livekit
+PyAutoGUI
+pyperclip
+moderngl
+pystray
+pycaw
+comtypes
+-r requirements-windows-tools.txt
